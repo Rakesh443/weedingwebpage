@@ -1,6 +1,5 @@
 
-TITLE: 
-Wedding - 100% Fully Responsive Free HTML5 Bootstrap Template
+TITLE: weeding= Template
 
 AUTHOR:
 DESIGNED & DEVELOPED by GetTemplates.co
