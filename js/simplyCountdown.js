@@ -165,15 +165,16 @@
         if (parameters.enableUtc) {
             targetDate = new Date(
                 "2021",
-                "5",
+                "4",
                 "30",
-                targetTmpDate.getUTCHours(),
-                targetTmpDate.getUTCMinutes(),
-                targetTmpDate.getUTCSeconds()
+                "11",
+                "00",
+                "00"
             );
         } else {
             targetDate = targetTmpDate;
         }
+        console.log(targetTmpDate.getUTCMinutes())
 
 
         

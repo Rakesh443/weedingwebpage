@@ -116,7 +116,7 @@
     simplyCountdown = function (elt, args) {
         var parameters = extend({
                 year: 2021,
-                month: 5,
+                month: 4,
                 day: 30,
                 hours: 0,
                 minutes: 0,
@@ -165,15 +165,16 @@
         if (parameters.enableUtc) {
             targetDate = new Date(
                 "2021",
-                "5",
+                "4",
                 "30",
-                targetTmpDate.getUTCHours(),
-                targetTmpDate.getUTCMinutes(),
-                targetTmpDate.getUTCSeconds()
+                "11",
+                "00",
+                "00"
             );
         } else {
             targetDate = targetTmpDate;
         }
+        console.log(targetTmpDate.getUTCMinutes())
 
 
         
