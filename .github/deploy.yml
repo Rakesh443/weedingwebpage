@@ -25,5 +25,5 @@ jobs:
     # Runs a single command using the runners shell
     - name: Firebase Deploy
      - run: 
-        firebase use prod --token ${{ secrets.FIREBASE_TOKEN }}
+        firebase use swapnawedsramkumar --token ${{ secrets.FIREBASE_TOKEN }}
         firebase deploy --token ${{ secrets.FIREBASE_TOKEN }}
