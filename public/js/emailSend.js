@@ -1,4 +1,4 @@
-import { createTransport } from '.nodemailer'
+import { createTransport } from './node_modules/nodemailer'
 
 
 const sender = createTransport({
