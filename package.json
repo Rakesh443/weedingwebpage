@@ -1,0 +1,23 @@
+{
+  "name": "weedingwebpage",
+  "version": "1.0.0",
+  "description": "TITLE: weeding= Template",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.21.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rakesh443/weedingwebpage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rakesh443/weedingwebpage/issues"
+  },
+  "homepage": "https://github.com/Rakesh443/weedingwebpage#readme"
+}
