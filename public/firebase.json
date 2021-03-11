@@ -9,7 +9,11 @@
   },
   "functions": {
     "predeploy": [
+<<<<<<< HEAD
       "npm --prefix \"$RESOURCE_DIR\" run lint"
+=======
+      "npm --prefix %RESOURCE_DIR% run lint"
+>>>>>>> 21ed0bf4083ebe91fc45ebef0c27a4506d4f6eeb
     ]
   }
 }
